@@ -1,0 +1,145 @@
+nav{
+    background-color: rgba(34, 37, 50, 0.8);
+}
+#showcase{
+    background-image: url('images/bg.jpg');
+    height: 110vh;   
+    background-size:100%;
+  }
+.mask{
+    height: 110vh;
+    background-color: rgba(34, 37, 50, 0.8);
+}
+.name{
+    font-size: 4em;
+}
+.last-name{
+ color:#BB635E
+  }
+
+button{
+    background: rgb(187,99,94);
+    background: linear-gradient(274deg, rgba(187,99,94,1) 0%, rgba(187,99,94,1) 35%, rgba(114,65,65,1) 100%);
+    border-radius: 15px;
+    border:#BB635E solid 2px;
+    padding: 3px 15px;
+    text-align: center;
+    color:#ffffff;
+    font-size: 18px;  
+}
+button:hover{
+    border:#222532 solid 2px;
+    background:#222532;
+    color: #ffffff;
+}
+
+
+#projects{
+    background-color:#ffffff;
+    z-index: -1;
+}
+#projects p, #projects h1{
+    color:#222532;
+}
+
+.projects{
+    border:#222532 2px solid ;
+    padding:20px;
+}
+
+#about{
+    background-color: #222532;
+}
+
+/*Social-icons*/
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    height: 40px;;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+    background:#ffffff;
+    color: #222532;
+  }
+  
+  .fa-facebook,
+  .fa-instagram,
+  .fa-linkedin,
+  .fa-github {
+    background: #222532;
+    color: white;
+  }
+
+/* Cards*/
+.card{
+    width:100%;
+    height: 350px;
+    padding:5px;
+    background-color: rgba(0, 0, 0, 0.374);  
+}
+
+.card img{
+    width:100%;
+    margin:0 auto;
+}
+.card-code{
+    display: inline;
+}
+
+.card-code img{
+    width: 50px;
+    height: 50px;
+    margin: 2px;
+}
+
+#contact{
+    background-color: #ffffff;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#contact .container{
+    max-width: 600px;
+    background-color: rgba(34, 37, 50);
+    border-radius: 10px;
+}
+
+footer{
+    background-color: #222532;
+}
+
+/* ============ only desktop view ============ */
+@media all and (min-width: 992px) {
+    .navbar .nav-item .nav-link{text-align: center ;
+                                 font-size: 17px;
+                                 padding:0 12px;  }
+
+}
+		
+/* ============ desktop view .end// ============ */
+
+  /* Height for devices larger than 576px */
+  @media (min-width: 992px) {
+    #intro {
+      margin-top: -58.59px;
+    }
+  }
+
+ 
+@media (max-width:768px){
+    .showcase{
+        padding:100px 0;
+        margin:0;
+        text-align: center;
+    }
+        
+    
+}
+/* 
+181B2F -blue*/
